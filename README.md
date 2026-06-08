@@ -15,6 +15,9 @@ All analyses were performed using the Galaxy platform with reproducible workflow
 ---
 
 ## Workflow Diagram
+```markdown
+![WGS Workflow](workflow/wgs_workflow_diagram.png)
+```
 
 ---
 
@@ -60,11 +63,6 @@ All analyses were performed using the Galaxy platform with reproducible workflow
 ---
 
 ## Workflow Summary
-```markdown
-![WGS Workflow](workflow/wgs_workflow_diagram.png)
-```
-
-
 ### Indian Isolate WGS Workflow
 
 1. Raw read quality assessment using FastQC
@@ -81,7 +79,6 @@ All analyses were performed using the Galaxy platform with reproducible workflow
 ---
 
 ## Key Results
-
 ### Quality Control Results
 
 * Raw reads:
@@ -127,10 +124,21 @@ Shared resistance gene detected in all isolates:
 ## AMR Profiling Results
 
 ### India Isolate
+```markdown
+![India AMR](results/india_amr_profile.png)
+```
+
 
 ### Turkey Isolate
+```markdown
+![Turkey AMR](results/turkey_amr_profile.png)
+```
+
 
 ### USA Isolate
+```markdown
+![USA AMR](results/usa_amr_profile.png)
+```
 
 ---
 
